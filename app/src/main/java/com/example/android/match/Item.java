@@ -10,10 +10,11 @@ public class Item {
         mwiks=0;
 
     }
-    public Item(String Name,int win)
+    public Item(String Name,int win,int wik)
     {
         mplayerName=Name;
         mwins=win;
+        mwiks=wik;
 
     }
     public String getMplayerName(){
@@ -25,9 +26,10 @@ public class Item {
     public int getMwiks(){
         return mwiks;
     }
-    public void setMwins(int wi)
+
+    public void setMwins(int win)
     {
-        mwins=wi;
+        mwins=win;
     }
     public void setMwiks(int wik)
     {

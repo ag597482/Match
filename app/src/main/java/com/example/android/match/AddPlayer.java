@@ -36,8 +36,11 @@ public class AddPlayer extends AppCompatActivity {
                         Toast.makeText(AddPlayer.this, "Player Already Present", Toast.LENGTH_SHORT).show();
                     }
                     else {
+
                         Toast.makeText(AddPlayer.this, "Player Added", Toast.LENGTH_SHORT).show();
                         MainActivity.arrayList.add(editText1.getText().toString());
+                        MainActivity.armw.add(new Item(editText1.getText().toString()));
+
                     }
 
 //                    TextView textView=new TextView(AddPlayer.this);

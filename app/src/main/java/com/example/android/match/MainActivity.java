@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     ImageButton i1,i2,i3,i4;
     Button b1,b2;
     static ArrayList<String> arrayList=new ArrayList<>();
+    static ArrayList<Item> armw=new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
