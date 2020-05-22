@@ -7,5 +7,38 @@
     android:orientation="vertical"
     android:id="@+id/playerstats"
     tools:context=".PlayerStats">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="2dp"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Player Name"
+            android:textColor="@color/black"
+
+
+            android:id="@+id/name"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Wins"
+            android:textColor="@color/black"
+
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+
+            android:text="Bowled"/>
+    </LinearLayout>
+
 
 </LinearLayout>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     tools:context=".AddPlayer">
     <EditText
         android:layout_width="250dp"
@@ -22,6 +23,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_below="@+id/ed1"
+        android:text="match"
         android:hint="Enter Code">
 
     </EditText>
@@ -32,6 +34,7 @@
         android:layout_margin="30dp"
         android:id="@+id/bt1"
         android:layout_centerHorizontal="true"
+        android:foregroundTint="@color/gray"
         android:text="ADD">
 
     </Button>

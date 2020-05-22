@@ -29,11 +29,11 @@ public class Item {
 
     public void setMwins(int win)
     {
-        mwins=win;
+        mwins++;
     }
     public void setMwiks(int wik)
     {
-        mwiks=wik;
+        mwiks=mwiks+wik;
     }
 
 }

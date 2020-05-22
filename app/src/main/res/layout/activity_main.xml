@@ -4,10 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".MainActivity">
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:src="@drawable/bg4"
+        android:scaleType="fitXY"
 
         />
 
@@ -27,39 +30,46 @@
         android:id="@+id/ra1"
         android:layout_margin="40dp"
         android:layout_centerHorizontal="true">
-        <ImageButton
+        <ImageView
             android:id="@+id/ib1"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="5dp"
+            android:src="@drawable/addp"
 
 
-            tools:srcCompat="@tools:sample/avatars" />
+            android:scaleType="centerCrop"/>
 
-        <ImageButton
+        <ImageView
             android:id="@+id/ib2"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_toRightOf="@+id/ib1"
             android:layout_margin="5dp"
-            tools:srcCompat="@tools:sample/avatars[2]" />
+            android:src="@drawable/addm"
 
-        <ImageButton
+            android:scaleType="centerCrop" />
+
+        <ImageView
             android:id="@+id/ib3"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_below="@id/ib1"
             android:layout_margin="5dp"
-            tools:srcCompat="@tools:sample/avatars[3]" />
+            android:src="@drawable/ds"
 
-        <ImageButton
+            android:scaleType="centerCrop" />
+
+        <ImageView
             android:id="@+id/ib4"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_toRightOf="@+id/ib3"
             android:layout_below="@+id/ib2"
             android:layout_margin="5dp"
-            tools:srcCompat="@tools:sample/avatars[11]" />
+            android:src="@drawable/ps"
+
+            android:scaleType="centerCrop" />
 
     </RelativeLayout>
     <RelativeLayout

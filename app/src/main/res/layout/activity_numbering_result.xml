@@ -7,5 +7,14 @@
     android:id="@+id/nr"
     android:orientation="vertical"
     tools:context=".NumberingResult">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numbering Order"
+        android:textColor="#00ff00"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:background="#FFF7DA"
+        />
 
 </LinearLayout>
